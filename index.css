@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.abs {
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(129, 126, 126, 0.1);
+    bottom: 0;
+ }
+
+.rela {
+    position: relative;
+    padding: 2rem 0;
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.colors {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.pickColor {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.App {
+    display: flex;
+}
+
+.right {
+   width: 80%;
+}
+
+.left {
+    flex: 20%;
+}
+
+button {
+    outline: none;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+}
+
+label {
+    display: block;
+    padding: 8px;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    width: 100%;
+}
+
+h3 {
+    padding: 8px;
+}
+
+
+
